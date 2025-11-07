@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: "lamp"
+id: "zond-lamp"
 name: "LAMP Stack"
 version: "1.0.0"
 category: "Development"
@@ -11,7 +11,7 @@ website: "https://github.com/atombyte/zond"
 support: "https://github.com/atombyte/zond/issues"
 icon: https://raw.githubusercontent.com/atombyte/zond/main/lamp/icon.png
 gallery:
-  - https://raw.githubusercontent.com/atombyte/zond/refs/heads/main/lamp/lamp_stack.png
+  - https://raw.githubusercontent.com/atombyte/zond/main/lamp/lamp_stack.png
 ports:
   - "8080:80"
   - "8081:80"
