@@ -8,9 +8,7 @@ description: >
   Eine lokale Entwicklungsumgebung mit Apache, PHP und MySQL.
 developer: "atombyte"
 repo: https://github.com/atombyte/zond/lamp
-ports:
-  - 8080
-  - 8081
+port: 8080
 icon: https://i.postimg.cc/x1G99Rt7/desk-lamp-12088232.png
 dependencies:
   - docker-compose.yml
