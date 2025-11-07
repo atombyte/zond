@@ -12,6 +12,6 @@ developer: atombyte
 ports:
   - 8080
   - 8081
-icon: https://i.postimg.cc/x1G99Rt7/desk-lamp-12088232.png
+icon: icon.png
 dependencies:
   - docker-compose.yml
