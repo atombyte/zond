@@ -3,3 +3,5 @@ name: "𒆜 ʐօռɖ 𒆜"
 description: >
   Ein inoffizieller Umbrel App Store mit experimentellen Apps.
 maintainer: atombyte
+apps:
+  path: .
