@@ -3,7 +3,6 @@ version: "3.9"
 services:
   web:
     image: php:8.2-apache
-    container_name: lamp_web
     restart: always
     ports:
       - "8080:80"
@@ -16,7 +15,6 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: lamp_db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
@@ -30,7 +28,6 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
-    container_name: lamp_phpmyadmin
     restart: always
     environment:
       PMA_HOST: db

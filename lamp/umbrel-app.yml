@@ -9,7 +9,9 @@ description: >
 developer: "atombyte"
 repo: https://github.com/atombyte/zond/lamp
 support: 
-port: 8080
+ports:
+  - 8080
+  - 8081
 icon: https://i.postimg.cc/x1G99Rt7/desk-lamp-12088232.png
 dependencies:
   - docker-compose.yml
