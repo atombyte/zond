@@ -4,9 +4,12 @@ name: "lamp"
 version: "1.0.0"
 category: "tools"
 tagline: "Apache + PHP + MySQL auf Umbrel"
-description: >
+description: >-
+
   Eine lokale Entwicklungsumgebung mit Apache, PHP und MySQL.
-developer: "atombyte"
+
+developer: atombyte
+submitter: atombyte
 repo: https://github.com/atombyte/zond/lamp
 support: 
 ports:
