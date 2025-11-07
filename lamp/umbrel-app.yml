@@ -7,7 +7,7 @@ tagline: "Apache + PHP + MySQL auf Umbrel"
 description: >
   Eine lokale Entwicklungsumgebung mit Apache, PHP und MySQL.
 developer: "atombyte"
-repo: https://github.com/atombyte/zond
+repo: https://github.com/atombyte/zond/lamp
 ports:
   - 8080
   - 8081
