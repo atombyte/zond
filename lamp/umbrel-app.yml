@@ -1,15 +1,18 @@
 manifestVersion: 1
-id: "zond-lamp"
-name: "lamp"
+id: "lamp"
+name: "LAMP Stack"
 version: "1.0.0"
-category: "tools"
+category: "Development"
 tagline: "Apache + PHP + MySQL auf Umbrel"
 description: >
-  Eine lokale Entwicklungsumgebung mit Apache, PHP und MySQL.
-developer: atombyte
+  Eine lokale LAMP-Entwicklungsumgebung mit Apache, PHP 8.2, MySQL und phpMyAdmin.
+developer: "atombyte"
+website: "https://github.com/atombyte/zond"
+support: "https://github.com/atombyte/zond/issues"
+icon: https://raw.githubusercontent.com/atombyte/zond/main/lamp/icon.png
+gallery:
+  - https://raw.githubusercontent.com/atombyte/zond/main/lamp/screenshot1.png
 ports:
-  - 8080
-  - 8081
-icon: https://raw.githubusercontent.com/atombyte/zond/refs/heads/main/lamp/icon.png
-dependencies:
-  - docker-compose.yml
+  - "8080:80"
+  - "8081:80"
+dependencies: []
