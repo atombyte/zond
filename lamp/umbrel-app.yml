@@ -10,6 +10,6 @@ developer: atombyte
 ports:
   - 8080
   - 8081
-icon: https://raw.githubusercontent.com/atombyte/zond/refs/heads/main/lamp/icon.png
+icon: ./lamp/icon.png
 dependencies:
   - docker-compose.yml
