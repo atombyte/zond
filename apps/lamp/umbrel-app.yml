@@ -1,18 +1,11 @@
 manifestVersion: 1
-id: "zond-lamp"
-name: "LAMP Stack"
+id: lamp
+name: LAMP Dashboard
 version: "1.0.0"
-category: "Development"
-tagline: "Apache + PHP + MySQL auf Umbrel"
-description: >
-  Eine lokale LAMP-Entwicklungsumgebung mit Apache, PHP 8.2, MySQL und phpMyAdmin.
-developer: "atombyte"
-website: "https://github.com/atombyte/zond"
-support: "https://github.com/atombyte/zond/issues"
-icon: https://raw.githubusercontent.com/atombyte/zond/main/lamp/icon.png
+tagline: Mein privates PHP+MySQL Dashboard
+description: >-
+  Single-Page Daten-Auswertung. Apache + PHP 8.3 + MySQL 8.
+icon: ./icon.png
 gallery:
-  - https://raw.githubusercontent.com/atombyte/zond/main/lamp/lamp_stack.png
-ports:
-  - "8080:80"
-  - "8081:80"
-dependencies: []
+  - ./lamp_stack.png
+port: 80
