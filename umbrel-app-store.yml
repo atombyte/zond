@@ -4,4 +4,4 @@ description: >
   Ein inoffizieller Umbrel App Store mit experimentellen Apps.
 maintainer: atombyte
 apps:
-  path: .
+  path: apps
